@@ -1,0 +1,47 @@
+Passo a passo para criação do 1º repositório
+
+1. Na interface do github com usuário logado, clica no sinal de "+", no canto superior direito e depois "new repository".
+
+2. Dar um nome ao seu repository, coloca uma descrição sobre o que é o projeto, seleciona a opção "public" e a opção "add a readme file".
+
+3. Por fim, clica em "create repository"
+
+4. Agora baixar o repositório na máquina, vai em "CODE" e copia o link HTTPS.
+
+Obs: Pode usar o SSH para não ficar digitando as credenciais porém precisa antes criar as chaves SSH.
+
+5. Criar uma pasta na máquina local, em: Este computador - documentos - DEV - GIT - DIO.
+
+6. Dentro da pasta DIO, para receber o repositório, clica com o botão direito e clica em "git bash here".
+
+7. Digita o comando: git clone 'cola o link HTTPS' e enter
+
+8. Abre a pasta clonada (repositório) e dentro vai encontrar a pasta READM.md
+
+9. Dentro do repositório, digita o comando: CD e nome do repositório (enter) e já começa a trabalhar para criar as pastas dentro do repositório.
+
+10. Se digitar o comando: git status (enter), vai ser mostrado que está tudo certo e que está na brant main.
+
+Obs. A intenção do repositório é organizar os estudos. Pode ser criado várias pastas dentro desse repositório.
+
+11. Após criar uma pasta na máquina local, esta precisa ir para o servidor remoto do github.
+
+12. Digita o comando: Git status (enter), vai mostrar que existe uma pasta nova. A pasta vai ser identificada.
+
+13. Para enviar esta pasta parao controle de versão, digita o comando: Git add . (enter) e depois o comando: Git status (enter)
+
+14. Logo, no primeiro comando anterior (item 13) a pasta vai aparecer vermelha. Após o segundo comando anterior (item 13)
+a pasta vai aparecer verde.
+
+15. Até aqui só foi adicionada a pasta no controle de versão local, agora precisa colocar no remoto. Digita o comando: 
+git commit -m 'nome da pasta criada' (enter)
+
+Obs: 'O nome da pasta criada' é apensas um comentário coerente com o nome da pasta propriamente dita.
+
+16. Após criada o commit para o arqivo, digita o comando: git status (enter) e ele informa que precisa dar um push.
+
+17. Digita o comando: git push origin main (enter)
+
+18. Após esse comando é enviado todos os commits que se tem na máquina local para nuvem.
+
+19. Dar um F5 na página do git e vai aparecer no github a pasta.
